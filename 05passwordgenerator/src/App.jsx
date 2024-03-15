@@ -22,7 +22,7 @@ function App() {
       str = str + "!@#$%^&*()_+";
     }
 
-    for (let i = 0; i < length; i++) {
+    for (let i = 1; i < length; i++) {
       const charPosition = Math.floor(Math.random() * str.length + 1);
       pass = pass + str.charAt(charPosition);
     }
